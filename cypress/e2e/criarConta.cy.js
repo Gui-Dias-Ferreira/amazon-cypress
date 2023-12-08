@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 describe('Realizando cadastro para efetuar login', () => {
 
   beforeEach(() => {
