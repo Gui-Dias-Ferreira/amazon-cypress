@@ -10,4 +10,6 @@ describe('Realizando cadastro para efetuar login', () => {
     cy.preencheEmailEClicaNoBotao()
     cy.contains(Cypress.env('nome')).should('be.visible')
   })
+
+
 })
